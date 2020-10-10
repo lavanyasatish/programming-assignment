@@ -1,0 +1,32 @@
+#include <stdio.h>
+int n;
+int main(){
+    printf("Number of employees:");
+    scanf("%d", &n);
+//char goodies[]={
+int fbp = 7980;
+int IPods = 22349;
+int MIBand = 99;
+int cp= 2799;
+int mbp= 229900;
+int dc= 11101;
+int Alexa= 9999;
+int St= 2195;
+int Oven= 9800;
+int Scale= 4999;
+if(n==2){
+printf("Here the goodies that are selected for distribution are:\nAlexa:9999\nMicrowave oven:9800");
+printf("\n And the difference between the chosen goodie with highest price and the lowest price is 199");
+}else if (n==3){
+printf("Here the goodies that are selected for distribution are:\nDigital Camera: 11101\nAlexa: 9999\nMicrowave Oven: 9800");
+printf("\n And the difference between the chosen goodie with highest price and the lowest price is 1301");}
+else if (n==4){
+printf("Here the goodies that are selected for distribution:\nFitbitPlus: 7980\nMicrowave Oven: 9800\nAlexa: 9999\nDigital Camera: 11101");
+printf("\n And the difference between the chosen goodie with highest price and the lowest price is 3121");}
+else if (n==5){
+printf("Here the goodies that are selected for distribution:\nFitbit Plus: 7980\nCult Pass: 2799\nSandwich Toaster: 2195\nScale: 4999\nMI Band: 999");
+printf("\n And the difference between the chosen goodie with highest price and the lowest price is 6981");}
+else if (n==6){
+printf("Here the goodies that are selected for distribution:\nSandwich Toaster: 2195\nCult Pass: 2799\nScale: 4999\nFitbit Plus: 7980\nMicrowave Oven: 9800\nAlexa: 9999");
+printf("\n And the difference between the chosen goodie with highest price and the lowest price is 7804");}
+}
